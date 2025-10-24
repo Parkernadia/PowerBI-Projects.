@@ -73,5 +73,8 @@ For the Date Column, I changed the format using:
   try Date.FromText([Date], [Culture = "en-US"]) otherwise
   null
 
+ Missing or inconsistent ID patterns 
+ Split by non-digit/digit, replaced blanks with “T”, filled down, and merged columns
+ Maintained unique identifiers without disrupting data order
 
 
